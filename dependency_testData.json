@@ -1,0 +1,37 @@
+{
+    "size": 910,
+    "totalSize": 910,
+    "done": true,
+    "queryLocator": null,
+    "entityTypeName": "MetadataComponentDependency",
+    "records": [
+        {
+            "attributes": {
+                "type": "MetadataComponentDependency",
+                "url": "/services/data/v47.0/tooling/sobjects/MetadataComponentDependency/000000000000000AAA"
+            },
+            "MetadataComponentId": "0000000000000",
+            "MetadataComponentName": "Test2Batch",
+            "MetadataComponentNamespace": null,
+            "MetadataComponentType": "ApexClass",
+            "RefMetadataComponentId": "222222222222",
+            "RefMetadataComponentName": "TestLogger",
+            "RefMetadataComponentNamespace": null,
+            "RefMetadataComponentType": "ApexClass"
+        },
+        {
+            "attributes": {
+                "type": "MetadataComponentDependency",
+                "url": "/services/data/v47.0/tooling/sobjects/MetadataComponentDependency/000000000000000AAA"
+            },
+            "MetadataComponentId": "1111111111111",
+            "MetadataComponentName": "TestBatch",
+            "MetadataComponentNamespace": null,
+            "MetadataComponentType": "ApexClass",
+            "RefMetadataComponentId": "33333333333333",
+            "RefMetadataComponentName": "TestApi",
+            "RefMetadataComponentNamespace": null,
+            "RefMetadataComponentType": "ApexClass"
+        }
+    ]
+}
