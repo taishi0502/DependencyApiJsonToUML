@@ -33,4 +33,11 @@ $markupList[] = "\n```";
 // ファイルに書き込み
 file_put_contents($outputFile, implode('', $markupList));
 
+/* 以下API参考_{Instance_URL}は組織のインスタンス名*/
+/*
+{Instance_URL}/services/data/v47.0/tooling/query?q=SELECT+MetadataComponentId,+MetadataComponentName,+ MetadataComponentNamespace,+MetadataComponentType,+RefMetadataComponentId,+ RefMetadataComponentName,+RefMetadataComponentNamespace,+RefMetadataComponentType+
+FROM+MetadataComponentDependency+
+WHERE+RefMetadataComponentType+=+'ApexClass'
+*/
+
 ?>
