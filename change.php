@@ -40,4 +40,6 @@ FROM+MetadataComponentDependency+
 WHERE+RefMetadataComponentType+=+'ApexClass'
 */
 
+// 'php change.php {{該当のJsonファイル}}'にて実行
+
 ?>
