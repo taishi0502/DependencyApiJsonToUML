@@ -2,7 +2,8 @@
 
 // コマンドライン引数からJSONファイルを読み込む
 $jsonFile = $argv[1];
-$outputFile = "output.md";
+$baseName = pathinfo($jsonFile, PATHINFO_FILENAME);
+$outputFile = $baseName . ".md";
 
 // ファイル名が重複している場合には、末尾の数字を増やしていく
 $counter = 1;
